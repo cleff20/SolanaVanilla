@@ -1,0 +1,376 @@
+Uri: https://bundle.run/buffer@6.0.3
+File Name: C:\Downloaded Web Sites\kndonsolana.com\buffer@6.0.3
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@5/minimal.css
+File Name: C:\Downloaded Web Sites\kndonsolana.com\npm\@sweetalert2\theme-minimal@5\minimal.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap
+File Name: C:\Downloaded Web Sites\kndonsolana.com\css2-1
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&amp;display=swap
+File Name: C:\Downloaded Web Sites\kndonsolana.com\css2-5
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap
+File Name: C:\Downloaded Web Sites\kndonsolana.com\css2-3
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Rowdies:wght@700&amp;display=swap
+File Name: C:\Downloaded Web Sites\kndonsolana.com\css2-4
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Russo+One&amp;display=swap
+File Name: C:\Downloaded Web Sites\kndonsolana.com\css2-2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Zen+Dots&amp;display=swap
+File Name: C:\Downloaded Web Sites\kndonsolana.com\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZg.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZg.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZg.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZogUE.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\oswald\v53\TK3_WkUHHAIjg75cFRf3bXL8LICs1xZogUE.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUE.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\oswald\v53\TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUE.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\poppins\v20\pxiByp8kv8JHgFVrLEj6V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rowdies/v17/ptRMTieMYPNBAK219gtm5O4.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\rowdies\v17\ptRMTieMYPNBAK219gtm5O4.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/russoone/v16/Z9XUDmZRWg6M1LvRYsH-yA.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\russoone\v16\Z9XUDmZRWg6M1LvRYsH-yA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/zendots/v12/XRXX3ICfm00IGoesQeaE.ttf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\s\zendots\v12\XRXX3ICfm00IGoesQeaE.ttf
+Content Type: font/ttf
+
+Uri: https://kndonsolana.com/
+File Name: C:\Downloaded Web Sites\kndonsolana.com\index.htm
+Content Type: text/html
+
+Uri: https://kndonsolana.com/app/bootstrap/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\kndonsolana.com\app\bootstrap\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://kndonsolana.com/app/dist/aos.css
+File Name: C:\Downloaded Web Sites\kndonsolana.com\app\dist\aos.css
+Content Type: text/css
+
+Uri: https://kndonsolana.com/app/dist/app.css
+File Name: C:\Downloaded Web Sites\kndonsolana.com\app\dist\app.css
+Content Type: text/css
+
+Uri: https://kndonsolana.com/app/js/aos.js
+File Name: C:\Downloaded Web Sites\kndonsolana.com\app\js\aos.js
+Content Type: application/javascript
+
+Uri: https://kndonsolana.com/app/js/app.js
+File Name: C:\Downloaded Web Sites\kndonsolana.com\app\js\app.js
+Content Type: application/javascript
+
+Uri: https://kndonsolana.com/app/js/count-down.js
+File Name: C:\Downloaded Web Sites\kndonsolana.com\app\js\count-down.js
+Content Type: application/javascript
+
+Uri: https://kndonsolana.com/app/js/jquery.easing.js
+File Name: C:\Downloaded Web Sites\kndonsolana.com\app\js\jquery.easing.js
+Content Type: application/javascript
+
+Uri: https://kndonsolana.com/app/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\kndonsolana.com\app\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://kndonsolana.com/app/js/mouse.js
+File Name: C:\Downloaded Web Sites\kndonsolana.com\app\js\mouse.js
+Content Type: application/javascript
+
+Uri: https://kndonsolana.com/app/knd.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\app\knd.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/app/sol.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\app\sol.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://kndonsolana.com/assets/fonts/fontawesome-webfont3e6e.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\fonts\fontawesome-webfont3e6e.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://kndonsolana.com/assets/fonts/fontawesome-webfont3e6e.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\fonts\fontawesome-webfont3e6e.svg
+Content Type: image/svg+xml
+
+Uri: https://kndonsolana.com/assets/fonts/fontawesome-webfont3e6e.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\fonts\fontawesome-webfont3e6e.ttf
+Content Type: font/ttf
+
+Uri: https://kndonsolana.com/assets/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\fonts\fontawesome-webfont3e6e.woff2
+Content Type: font/woff2
+
+Uri: https://kndonsolana.com/assets/fonts/fontawesome-webfont3e6e.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\fonts\fontawesome-webfont3e6e.woff
+Content Type: font/woff
+
+Uri: https://kndonsolana.com/assets/fonts/fontawesome-webfontd41d.eot?
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\fonts\fontawesome-webfontd41d.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://kndonsolana.com/assets/fonts/icomoond0d7.eot?oe5mqk
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\fonts\icomoond0d7.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://kndonsolana.com/assets/fonts/icomoond0d7.svg?oe5mqk
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\fonts\icomoond0d7.svg
+Content Type: image/svg+xml
+
+Uri: https://kndonsolana.com/assets/fonts/icomoond0d7.ttf?oe5mqk
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\fonts\icomoond0d7.ttf
+Content Type: font/ttf
+
+Uri: https://kndonsolana.com/assets/fonts/icomoond0d7.woff?oe5mqk
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\fonts\icomoond0d7.woff
+Content Type: font/woff
+
+Uri: https://kndonsolana.com/assets/images/background/banner-music.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\banner-music.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/banner-top-6.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\banner-top-6.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-4.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-4.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-404.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-404.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-banner-nft.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-banner-nft.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-banner-top-4.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-banner-top-4.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-bd.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-bd.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/bg-choose.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-choose.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-comingsoon.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-comingsoon.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-document-01.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-document-01.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/bg-document-box.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-document-box.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/bg-document.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-document.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/bg-features.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-features.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/bg-iconbox.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-iconbox.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/bg-join-music.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-join-music.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-join.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-join.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/bg-pagetitle.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-pagetitle.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-roadmap-3.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-roadmap-3.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-roadmap-5.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-roadmap-5.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/bg-roadmap.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-roadmap.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-team-5.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-team-5.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/bg-team.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\bg-team.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/faq.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\faq.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/gradient.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\gradient.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/kndcoin.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\kndcoin.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/number1.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\number1.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/number2.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\number2.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/number3.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\number3.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/number4.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\number4.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/number5.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\number5.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/background/platform-bg.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\platform-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/background/Slider.jpg
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\background\Slider.jpg
+Content Type: image/jpeg
+
+Uri: https://kndonsolana.com/assets/images/icon/download.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\icon\download.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/icon/End.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\icon\End.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/layout/roadmap-7.1.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\layout\roadmap-7.1.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/layout/roadmap-7.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\layout\roadmap-7.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/logo/favicon.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\logo\favicon.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/images/logo/kndlogo_bg.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\images\logo\kndlogo_bg.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://kndonsolana.com/assets/js/popper.js
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\js\popper.js
+Content Type: application/javascript
+
+Uri: https://kndonsolana.com/assets/style.css
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\style.css
+Content Type: text/css
+
+Uri: https://kndonsolana.com/assets/wallets/phantom.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\wallets\phantom.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/assets/wallets/solflare.png
+File Name: C:\Downloaded Web Sites\kndonsolana.com\assets\wallets\solflare.png
+Content Type: image/png
+
+Uri: https://kndonsolana.com/chunks/chunk8.js
+File Name: C:\Downloaded Web Sites\kndonsolana.com\chunks\chunk8.js
+Content Type: application/javascript
+
+Uri: https://kndonsolana.com/knd_whitepaper.pdf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\knd_whitepaper.pdf
+Content Type: application/pdf
+
+Uri: https://kndonsolana.com/npm/sweetalert2%4010.js
+File Name: C:\Downloaded Web Sites\kndonsolana.com\npm\sweetalert2@10.js
+Content Type: application/javascript
+
+Uri: https://kndonsolana.com/privacy_policy.pdf
+File Name: C:\Downloaded Web Sites\kndonsolana.com\privacy_policy.pdf
+Content Type: application/pdf
+
+Uri: https://unpkg.com/@solana/web3.js@1.87.6/lib/index.iife.js
+File Name: C:\Downloaded Web Sites\kndonsolana.com\@solana\web3.js@1.87.6\lib\index.iife.js
+Content Type: application/javascript
+
