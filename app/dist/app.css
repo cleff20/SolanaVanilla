@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 body {
@@ -35,7 +36,7 @@ body {
 }
 
 .home-nft, .home-music {
-  --primary-color: #C004DE;
+  --primary-color: #ffc200;
   --font-main: "Oswald";
 }
 
@@ -131,7 +132,8 @@ input[type="number"]
 }
 
 .kndinput {
-  border: 2px solid #c004de; border-radius: 10px;
+  border: 2px solid #d07d19;
+  border-radius: 10px;
   padding: 10px 10px;
   line-height: 20px; 
   font-size: 14px;
@@ -154,7 +156,7 @@ input[type="number"]
 }
 
 .knd {
-  background: #fff url(../knd.png) no-repeat right !important;
+  background: #fff url('../../assets/images/background/CSCbg.png') no-repeat right !important;
   background-position-x: right;
   background-position-y: center;
   background-size: auto;
@@ -169,7 +171,7 @@ input[type="number"]
 .kndmodal {
   pointer-events: auto;
   padding: 24px 54px 24px 54px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, rgba(119, 61, 191, 0.1) 0%, rgba(134, 53, 189, 0.1) 100%);
+  background: #3f241b63;
   backdrop-filter: blur(100px);
   border-radius: 20px;
   text-align: center;
@@ -177,7 +179,7 @@ input[type="number"]
 
 .kndmodalmobile {
   pointer-events: auto;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, rgba(119, 61, 191, 0.1) 0%, rgba(134, 53, 189, 0.1) 100%);
+  background: #3f241b63;
   backdrop-filter: blur(100px);
   border-radius: 20px;
   text-align: center;
@@ -573,7 +575,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
   top: 0;
   opacity: 1;
   visibility: visible;
-  background: #050231;
+  background: #a09281;
 }
 .header .header__body {
   display: flex;
@@ -1022,7 +1024,7 @@ h3, h5 {
   overflow: hidden;
   font-family: "Zen Dots";
   font-weight: 400;
-  background: linear-gradient(90deg, #F54097 0%, #EF369B 7.69%, #E92C9F 15.38%, #E122A4 23.08%, #D918A9 30.77%, #D00DAE 38.46%, #C603B3 46.15%, #BA00B9 53.85%, #AD01BE 61.54%, #9F07C4 69.23%, #8E10C9 76.92%, #7A18CF 84.62%, #6220D4 92.31%, #3F26D9 100%), linear-gradient(87.21deg, #F54097 0%, #3F26D9 100%);
+  background: linear-gradient(74deg, rgba(210,161,4,1) 0%, rgba(160,146,129,1) 92%)
 }
 .btn-action.style-2 span {
   position: relative;
@@ -1037,7 +1039,7 @@ h3, h5 {
   width: 100%;
   height: 100%;
   transition: 0.5s all ease-in-out;
-  background: linear-gradient(-90deg, #F54097 0%, #EF369B 7.69%, #E92C9F 15.38%, #E122A4 23.08%, #D918A9 30.77%, #D00DAE 38.46%, #C603B3 46.15%, #BA00B9 53.85%, #AD01BE 61.54%, #9F07C4 69.23%, #8E10C9 76.92%, #7A18CF 84.62%, #6220D4 92.31%, #3F26D9 100%), linear-gradient(87.21deg, #F54097 0%, #3F26D9 100%);
+  background: #a09281;
   opacity: 0;
   transition: 0.5s all ease-in-out;
 }
@@ -1180,12 +1182,12 @@ h3, h5 {
 }
 
 .btn-action-outline.style-1 {
-  border-color: #C004DE;
+  border-color: #d2a104;
   border-radius: 12px;
   padding: 11px 33px;
 }
 .btn-action-outline.style-1::before {
-  background: #C004DE;
+  background: #a09281;
 }
 
 .btn-action-outline.style-2 {
@@ -1248,7 +1250,7 @@ h3, h5 {
   /* background: #fff; */
 }
 .btn-action-outline.style-2:hover {
-  color: #C004DE;
+  color: #ffc200;
 }
 
 .btn-action-outline.style-3 {
@@ -1303,7 +1305,7 @@ h3, h5 {
   padding: 9px 38px;
   border: 2px solid;
   border-image-slice: 1;
-  border-image-source: linear-gradient(to left, #8635bd, #3dbfbb);
+  border-image-source: linear-gradient(74deg, rgba(210,161,4,1) 0%, rgba(160,146,129,1) 92%);
   position: relative;
 }
 .btn-action-outline.style-6::before {
@@ -1766,7 +1768,7 @@ h3, h5 {
 .banner-top.style-2 .banner-top__sale .sale-content {
   margin-top: -164px;
   padding: 24px 0 57px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, rgba(119, 61, 191, 0.1) 0%, rgba(134, 53, 189, 0.1) 100%);
+  background: #3f241b63;
   backdrop-filter: blur(100px);
   border-radius: 20px;
   text-align: center;
@@ -7409,7 +7411,7 @@ form button.btn-action {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #C004DE;
+  color: #ffc200;
   letter-spacing: 3.5px;
 }
 .about.style-3 .about__content .title {
@@ -9353,7 +9355,7 @@ img.mfp-img {
 }
 
 .footer.style-1 {
-  background: rgba(192, 4, 222, 0.1);
+  background: #3f241b63;
 }
 .footer.style-1 .footer__top {
   padding: 50px 0 18px;
