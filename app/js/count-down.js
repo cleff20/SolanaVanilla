@@ -23,6 +23,8 @@ Util.setAttributes = function (el, attrs) {
         this.endTime = this.getEndTime();
         //init counter
         this.initCountDown();
+
+        console.log("SEEEEEEEEEEEEEEE",this.endTime)
     };
 
     CountDown.prototype.setVisibleLabels = function () {
@@ -60,7 +62,8 @@ Util.setAttributes = function (el, attrs) {
 
     CountDown.prototype.getEndTime = function () {
         // get number of remaining seconds
-        if (this.element.getAttribute('data-timer')) return Number(this.element.getAttribute('data-timer')) * 6005 + new Date().getTime();
+        if (this.element.getAttribute('data-timer')) return Number(this.element.getAttribute('data-timer')) + 1707859434674;
+        
         else if (this.element.getAttribute('data-countdown')) return Number(new Date(this.element.getAttribute('data-countdown')).getTime());
     };
 
@@ -71,7 +74,7 @@ Util.setAttributes = function (el, attrs) {
         }, 1000);
         this.updateCountDown(true);
     };
-
+    
     CountDown.prototype.updateCountDown = function (bool) {
         // original countdown function
         // https://gist.github.com/adriennetacke/f5a25c304f1b7b4a6fa42db70415bad2
@@ -119,10 +122,12 @@ Util.setAttributes = function (el, attrs) {
         //initialize the CountDown objects
 /*        window.setTimeout(() => {*/
             var countDown = document.getElementsByClassName('js-countdown');
+            console.log("COOOOOOOOOOOOOOOO",countDown.length)
             if (countDown.length > 0) {
                 for (var i = 0; i < countDown.length; i++) {
                     (function (i) {
                         new CountDown(countDown[i]);
+                        console.log("COOOOOOOOOOOOOOOO",countDown[i])
                     })(i);
                 }
             }
